@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamlStyler.Console", "XamlS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlStyler.Extension.Windows", "XamlStyler.Extension.Windows\XamlStyler.Extension.Windows.csproj", "{36E90337-BD31-49CF-89E9-7069CB5009C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlStyler.Extension", "XamlStyler.Extension\XamlStyler.Extension.csproj", "{C9EDDF87-4F29-47C7-B129-68EA6EED6A90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamlStyler.Extension", "XamlStyler.Extension\XamlStyler.Extension.csproj", "{C9EDDF87-4F29-47C7-B129-68EA6EED6A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlStyler.CodeAnalyzer", "XamlStyler.CodeAnalyzer\XamlStyler.CodeAnalyzer.csproj", "{57EEE4BB-2FC2-4DC9-A75A-22F290A963BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C9EDDF87-4F29-47C7-B129-68EA6EED6A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9EDDF87-4F29-47C7-B129-68EA6EED6A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9EDDF87-4F29-47C7-B129-68EA6EED6A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EEE4BB-2FC2-4DC9-A75A-22F290A963BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EEE4BB-2FC2-4DC9-A75A-22F290A963BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EEE4BB-2FC2-4DC9-A75A-22F290A963BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EEE4BB-2FC2-4DC9-A75A-22F290A963BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
